@@ -3,120 +3,181 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Portfolio</title>
+    <title>Gowtham Palanisamy - Portfolio</title>
     <style>
-        /* Reset some default styles */
-        body, h1, h2, h3, p, ul {
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background-color: #f4f4f4;
             margin: 0;
             padding: 0;
         }
 
-        body {
-            font-family: Arial, sans-serif;
-            line-height: 1.6;
-        }
-
-        .container {
-            width: 80%;
-            margin: 0 auto;
-        }
-
         header {
-            background: #333;
+            background-color: #333;
             color: #fff;
-            padding: 1rem 0;
+            padding: 10px 0;
+            text-align: center;
         }
 
         header h1 {
-            text-align: center;
+            margin: 0;
+            font-size: 2.5em;
         }
 
-        nav ul {
-            list-style: none;
-            text-align: center;
+        header p {
+            margin: 5px 0;
         }
 
-        nav ul li {
-            display: inline;
-            margin: 0 15px;
-        }
-
-        nav ul li a {
+        header a {
             color: #fff;
             text-decoration: none;
         }
 
         section {
-            padding: 2rem 0;
+            margin: 20px;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
         }
 
-        #about {
-            background: #f4f4f4;
+        section h2 {
+            margin-top: 0;
         }
 
-        .project {
-            background: #fff;
-            padding: 1rem;
-            margin: 1rem 0;
-            border-radius: 5px;
-            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        ul li {
+            margin: 5px 0;
         }
 
         footer {
-            background: #333;
-            color: #fff;
             text-align: center;
-            padding: 1rem 0;
+            padding: 20px;
+            background-color: #333;
+            color: #fff;
+            margin-top: 20px;
+        }
+
+        @media (max-width: 768px) {
+            header h1 {
+                font-size: 2em;
+            }
+
+            section {
+                margin: 10px;
+                padding: 15px;
+            }
         }
     </style>
 </head>
 <body>
     <header>
-        <div class="container">
-            <h1>My Portfolio</h1>
-            <nav>
-                <ul>
-                    <li><a href="#about">About</a></li>
-                    <li><a href="#projects">Projects</a></li>
-                    <li><a href="#contact">Contact</a></li>
-                </ul>
-            </nav>
-        </div>
+        <h1>Gowtham Palanisamy</h1>
+        <p>AI Enthusiast</p>
+        <p>Coimbatore | 99655909990 | <a href="mailto:gowthampalanisamy29@gmail.com">gowthampalanisamy29@gmail.com</a></p>
     </header>
 
-    <section id="about">
-        <div class="container">
-            <h2>About Me</h2>
-            <p>Hello! I'm [Your Name], a passionate web developer with experience in building dynamic and responsive websites. I enjoy working on creative projects and learning new technologies.</p>
-        </div>
+    <section id="objective">
+        <h2>Objective</h2>
+        <p>Quick learner and engaged in many events and competitions. Highly motivated as a ML engineer. Consistently maintains performance. Eager to learn new things through practical experience.</p>
+    </section>
+
+    <section id="education">
+        <h2>Education</h2>
+        <ul>
+            <li>SSC - SKV VIDHYAASHRAM - 67.33%</li>
+            <li>SSCE - SKV VIDHYAASHRAM - 70.66%</li>
+            <li>UG - KPR Institute of Engineering and Technology (2022-2026), Major - AIML</li>
+        </ul>
+    </section>
+
+    <section id="interests">
+        <h2>Area of Interest</h2>
+        <ul>
+            <li>Graphic Designing</li>
+            <li>Data Science</li>
+            <li>AI (Artificial Intelligence)</li>
+            <li>ML Algorithms</li>
+            <li>AI and Robotics</li>
+            <li>NLP (Natural Language Processing)</li>
+            <li>Designing</li>
+        </ul>
     </section>
 
     <section id="projects">
-        <div class="container">
-            <h2>My Projects</h2>
-            <div class="project">
-                <h3>Project One</h3>
-                <p>A brief description of what this project is about. It showcases some of my skills and expertise.</p>
-            </div>
-            <div class="project">
-                <h3>Project Two</h3>
-                <p>A brief description of what this project is about. It demonstrates my ability to solve problems creatively.</p>
-            </div>
-            <!-- Add more projects as needed -->
-        </div>
+        <h2>Ongoing Projects</h2>
+        <ul>
+            <li><strong>E-InVo - Where Invoicing Meets Innovation:</strong> An application for small-scale mechanical shopkeepers to track their productivity.</li>
+            <li><strong>Reg-online:</strong> A website for students to apply for E-On Duty forms, E-Attendance, and other functionalities.</li>
+        </ul>
     </section>
 
-    <section id="contact">
-        <div class="container">
-            <h2>Contact Me</h2>
-            <p>If you'd like to get in touch, feel free to email me at <a href="mailto:yourname@example.com">yourname@example.com</a>.</p>
-        </div>
+    <section id="internships">
+        <h2>Internships</h2>
+        <ul>
+            <li>Completed online internship on data analytics using NLP in Coders Cave.</li>
+            <li>Ongoing online internship on Machine Learning at Bharat Intern.</li>
+        </ul>
+    </section>
+
+    <section id="extra-curricular">
+        <h2>Extra-Curricular Activities</h2>
+        <ul>
+            <li>Football: Zonal level winner (2024), Interzonal level runner-up (2024), Centies continuous 2-time winner (2023 and 2024)</li>
+            <li>Gymnastics: State level winner (2017)</li>
+            <li>Chess: District level winner (2020)</li>
+            <li>Carrom: District level winner (2020)</li>
+            <li>Art and Craft: Open competition with Lion’s Club in 2018</li>
+        </ul>
+    </section>
+
+    <section id="skills">
+        <h2>Skills</h2>
+        <ul>
+            <li>Programming languages: Python, C#, Java, SQL, R, MATLAB</li>
+            <li>Database: PostgreSQL, MySQL, Firebase, MongoDB</li>
+            <li>Cloud Platforms: AWS, Google Cloud, Azure</li>
+            <li>Others: Linux, Cloud API</li>
+        </ul>
+    </section>
+
+    <section id="certifications">
+        <h2>Certifications</h2>
+        <ul>
+            <li>Crash course on Python - Coursera (Google, 2023)</li>
+            <li>Foundations: Data Data Everywhere - Coursera (Google, 2023)</li>
+            <li>AI For Everyone - Coursera (DeepLearning.AI, 2023)</li>
+            <li>MATLAB Beginners - MATLAB Onramp (2023)</li>
+        </ul>
+    </section>
+
+    <section id="hobbies">
+        <h2>Hobbies</h2>
+        <ul>
+            <li>Drawing</li>
+            <li>Listening to Music</li>
+            <li>Art and Craft</li>
+            <li>Playing with Friends</li>
+        </ul>
+    </section>
+
+    <section id="languages">
+        <h2>Languages</h2>
+        <ul>
+            <li>Tamil</li>
+            <li>English</li>
+            <li>Malayalam</li>
+        </ul>
     </section>
 
     <footer>
-        <div class="container">
-            <p>&copy; 2024 [Your Name]. All rights reserved.</p>
-        </div>
+        <p>Driven and adaptable computer science student with a focus on AI and ML. Strong problem-solving skills and a passion for leveraging technology to tackle complex challenges. Proven ability to work effectively both independently and collaboratively in fast-paced environments. Eager to contribute to innovative projects and continue learning in the field of AIML.</p>
     </footer>
 </body>
 </html>
